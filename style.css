@@ -53,3 +53,10 @@ button {
 button:hover {
   background-color: #ff0055;
 }
+
+@media (min-width: 600) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
